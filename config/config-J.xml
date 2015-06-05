@@ -1,0 +1,26 @@
+<parameters>
+    <parameter type="ACO">
+        <maxNumIterations>50</maxNumIterations>
+        <pheromonesEvaporationRate>0.65</pheromonesEvaporationRate>
+        <alpha>0.85</alpha>
+        <beta>0.85</beta>
+        <numberOfAnts>20</numberOfAnts>
+    </parameter>
+    <parameter type="GA">
+        <geneType>Simple</geneType>
+        <maxNumIterations>1</maxNumIterations>
+        <eliteNumber>0</eliteNumber>
+        <mutationRate>0</mutationRate>
+        <crossoverRate>0</crossoverRate>
+    </parameter>
+    <parameter type="EVA">
+        <acoImportance>1</acoImportance>
+        <agImportance>0</agImportance>
+    </parameter>
+    <parameter type="General">
+        <resultFile>result-J.txt</resultFile>
+        <root>/l/cgi/eareyan/bioinspired/</root>
+        <pathToMazes>mazes_deterministic/</pathToMazes>
+        <pathToResults>results/</pathToResults>        
+    </parameter>
+</parameters>
